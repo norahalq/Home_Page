@@ -1,0 +1,108 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,segoe ui emoji,segoe ui symbol;
+}
+
+body{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.6337885495995272) 0%, rgba(0,0,0,0.7794468129048494) 100%),url("photo_1.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+/* .container{
+    max-width: 1200px;
+} */
+
+header{
+    width: auto;
+    overflow: auto;
+    margin-top: 1%;
+}
+
+.logo{
+    float:left;
+
+}
+.logo h2{
+    color: rgb(244, 245, 247);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-left: 5px;
+
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    width: auto;
+    overflow:auto;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 5px 20px;
+
+}
+nav ul li:hover{
+    border: 1px solid #FFF;
+
+}
+nav ul .activ{
+    border: 2px solid #FFF;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.text{
+    margin-top:20% ;
+    
+
+}
+.text h1{
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+}
+ .button{
+margin-right: 38%
+;margin-top: 30px
+;}
+button{
+    width: 170px;
+    height:70px;
+    border: 1px solid #FFF;
+ margin-left: 10px;
+}
+button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;;
+}
+
+.btn_1{
+    background-color: #ccae62;
+    border: 1px solid   #ccae62;
+}
+.btn_1 a{
+   color:#fff;
+}
+.btn_2{
+    background-color: #ccae62;
+    border: 1px solid   #ccae62;
+}
+.btn_2 a{
+    color:#fff;
+ }
+ .btn_2:hover{
+    background-color: #ccae6279;
+ }
+ .btn_1:hover{
+    background-color: #ccae6279;
+ }
